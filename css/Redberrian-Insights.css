@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.left-side {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: white;
+  }
+  
+  .right-side {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: black;
+  }
+
+  .left-text{
+    position: absolute;
+    width: 788px;
+    height: 175px;
+    left: 51px;
+    top: 61px;
+    text-align: center;
+  }
+
+ .left-header{
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+ }
+
+
+
+.devtalks-div{
+    position: absolute;
+    width: 645px;
+    height: 157px;
+    left: 166px;
+    top: 345px;    
+ }
+
+ .devtalks-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+ }
+
+ .yes-div{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.no-div{
+    position: absolute;
+    top: 67px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.devtalks-speak-div{
+    position: absolute;
+    width: 645px;
+    height: 52px;
+    left: 166px;
+    top: 509px;
+}
+
+.devtalks-speak-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.devtalks-input{
+    position: absolute;
+    left: 1px;
+    top: 50px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #454545;
+    overflow-x: hidden;
+}
+
+textarea { resize: none; }
+
+textarea::placeholder {
+    transform: translateY(30px) translateX(20px);
+  }
+
+.tell-div{
+    position: absolute;
+    width: 645px;
+    height: 52px;
+    left: 166px;
+    top: 727px;
+}
+
+.tell-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+
+.tell-input{
+    position: absolute;
+    left: 1px;
+    top: 40px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #454545;
+    overflow-x: hidden;
+}
+
+.Previous{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 341px;
+    top: 962px;
+    
+}
+
+.eclipse1-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 377px;
+    top: 964px;
+}
+
+.personal-info{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+.eclipse2-div{
+    width: 18px; 
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 411px;
+    top: 964px;
+}
+
+.technical-info{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+}
+
+.eclipse3-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 445px;
+    top: 964px;
+}
+
+.covid{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+}
+
+.eclipse4-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 479px;
+    top: 964px;
+}
+
+.insights{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+}
+
+
+.eclipse5-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 513px;
+    top: 964px;
+}
+
+.eclipse{
+   opacity: 0.1;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #FE3B1F;
+}
+
+.eclipse-colored{
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #FE3B1F;
+}
+
+.next-img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 554px;
+    top: 962px;
+}
+
+.right-text{
+    position: absolute;
+    width: 788px;
+    height: 175px;
+    left: 177px;
+    top: 61px;
+  }
+
+ .right-header{
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    
+    color: #FE3B1F;
+    
+ }
+
+ .about-text-div{
+    position: absolute;
+    width: 705px;
+    height: 606px;
+    left: 180px;
+    top: 270px;
+ }
+
+
+ .about-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+ }
+
+
+ h4 {
+    position: absolute;
+    width: 370px;
+    height: 16px;
+    left: 10px;
+    top: 80px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 13px;
+    display: flex;
+    align-items: center; 
+   color: #fe3b1f;
+  }
+  
+  .devtalks-h4 {
+    position: absolute;
+    width: 370px;
+    height: 16px;
+    left: 10px;
+    top: 160px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #fe3b1f;
+  }
+
+  .special-h4 {
+    position: absolute;
+    width: 370px;
+    height: 16px;
+    left: 10px;
+    top: 150px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 13px;
+    color: #fe3b1f;
+  }
+  

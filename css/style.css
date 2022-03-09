@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    background-image: url(../images/stars.svg);
+}
+
+.welcome-div{
+    position: absolute;
+    width: 1090px;
+    height: 212px;
+    left: 434px;
+    top: 175px;
+}
+
+.welcome-rocketer{
+    text-align: center;
+    color: #fe3b1f;
+    font-family: "Rowdies";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+}
+
+.start-button-div{
+    position: absolute;
+    width: 395px;
+    height: 79px;
+    left: 754px;
+    top: 492px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-button{
+    width: 395px;
+    height: 79px;
+    left: 754px;
+    top: 492px;
+    background: #FE3B1F;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    align-items: center;
+}
+
+.start-button-text{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.submitted-aplc{
+    position: absolute;
+    width: 338px;
+    height: 66px;
+    left: 795px;
+    top: 589px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sumbitted-link{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+}
+
+.rocketman-div{
+    position: absolute;
+    width: 536px;
+    height: 468px;
+    left: 661px;
+    top: 612px;
+    background: url("../images/rocketman.svg");
+}
+

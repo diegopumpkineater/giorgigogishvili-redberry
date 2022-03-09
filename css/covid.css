@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.left-side {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: white;
+  }
+  
+  .right-side {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: black;
+  }
+
+  .left-text{
+    position: absolute;
+    width: 788px;
+    height: 175px;
+    left: 51px;
+    top: 10px;
+    text-align: center;
+  }
+
+ .left-header{
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+ }
+
+ .work-div{
+    position: absolute;
+    width: 645px;
+    height: 157px;
+    left: 166px;
+    top: 190px;    
+ }
+
+ .work-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+ }
+
+.office-div{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.home-div{
+    position: absolute;
+    top: 67px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.hybrid-div{
+    position: absolute;
+    top: 94px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.contact-div{
+    position: absolute;
+    width: 645px;
+    height: 157px;
+    left: 166px;
+    top: 350px;    
+ }
+
+ .contact-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+ }
+
+ .yes-div{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.no-div{
+    position: absolute;
+    top: 67px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.when-div{
+    position: absolute;
+    width: 645px;
+    height: 52px;
+    left: 1px;
+    top: 130px;
+}
+
+.when-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.date-div{
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 1px;
+    top: 55px;
+    background: #FFFFFF;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+
+.when-input{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #454545;
+    width: 400px;
+    height: 20px;
+    border: 2px solid gray;
+}
+
+.vaccinated-div{
+    position: absolute;
+    width: 645px;
+    height: 52px;
+    left: 166px;
+    top: 650px;;    
+ }
+
+.vaccinated-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+ }
+
+ .yes-div2{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.no-div2{
+    position: absolute;
+    top: 67px;
+    left: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+.get-vaccinated-div{
+    position: absolute;
+    width: 645px;
+    height: 52px;
+    left: 166px;
+    top: 800px;
+}
+
+.get-vaccinated-span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.date-div2{
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 1px;
+    top: 55px;
+    background: #FFFFFF;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+
+.get-vaccinated-input{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #454545;
+    width: 400px;
+    border: 2px solid gray;
+}
+
+
+
+
+.Previous{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 341px;
+    top: 950px;
+    
+}
+
+.eclipse1-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 377px;
+    top: 952px;
+}
+.personal-info{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+.eclipse2-div{
+    width: 18px; 
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 411px;
+    top: 952px;
+}
+
+.technical-skilset{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+}
+
+.eclipse3-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 445px;
+    top: 952px;
+}
+
+.covid{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+}
+
+.eclipse4-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 479px;
+    top: 952px;
+}
+
+.eclipse5-div{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 513px;
+    top: 952px;
+}
+
+.eclipse{
+   opacity: 0.1;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #FE3B1F;
+}
+
+.eclipse-colored{
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #FE3B1F;
+}
+
+.next-img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 554px;
+    top: 950px;
+}
+
+.right-text{
+    position: absolute;
+    width: 788px;
+    height: 175px;
+    left: 177px;
+    top: 61px;
+  }
+
+ .right-header{
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    
+    color: #FE3B1F;
+    
+ }
+
+ .about-text-div{
+    position: absolute;
+    width: 705px;
+    height: 606px;
+    left: 180px;
+    top: 270px;
+ }
+
+
+ .about-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+ }
+
+
+
+ input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    padding-top: 1px;
+    background: url("../images/calendar.svg") no-repeat;
+    width: 18px;
+    height: 20px;
+    border-width: thin;
+  }
+
+  h4 {
+    position: absolute;
+    width: 340px;
+    height: 16px;
+    top: 100px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+  
+    /* Redberry Red */
+  
+    color: #fe3b1f;
+  }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+.thanks-div{
+    position: absolute;
+    width: 1066px;
+    height: 191px;
+    left: 427px;
+    top: 444px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks{
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FE3B1F;
+}
+

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+
+.sumbit-button-div{
+    position: absolute;
+    width: 395px;
+    height: 79px;
+    left: 758px;
+    top: 458px;
+    
+    background: #FE3B1F;
+    border-radius: 50px;
+}
+
+.submit-button{
+    width: 395px;
+    height: 79px;
+    left: 754px;
+    top: 492px;
+    background: #FE3B1F;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    align-items: center;
+}
+
+.submit-button-text{
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.back-aplc{
+    position: absolute;
+    width: 338px;
+    height: 66px;
+    left: 795px;
+    top: 572px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.back-link{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 29px;
+    text-decoration-line: none;
+    border-bottom: 1px solid currentColor;
+}
+
+
